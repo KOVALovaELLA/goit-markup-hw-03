@@ -93,6 +93,7 @@ body {
 .header-container{
     display: flex;
 align-items: center;
+border-bottom: 1px solid #e7e9fc;
 /*gap: 332px;*/
 }
 .header-menu{
@@ -250,11 +251,16 @@ padding: 188px 472px 292px 472px;
     gap:24px;
     margin-bottom: 120px;
 }
+.studio-img-doing{
+    display: block;
+}
 .studio-section-team {
     background-color:var(--studio-ourteam-color);
 
 }
-
+.studio-img-team{
+    display: block;
+}
 .studio-team-infa {
     background-color: #FFFFFF;
    
@@ -355,6 +361,9 @@ justify-content: center;
     flex-direction: column;
     row-gap: 48px;
     margin-bottom: 120px;
+}
+.portfolio-img{
+    display: block;
 }
 .usual-text-portfolio{
     margin-bottom: 32px;
