@@ -263,10 +263,10 @@ align-items: center;
 .studio-images-doing{
     display: flex;
     gap:24px;
-    margin-bottom: 120px;
+    
 }
 .studio-section-doing{
-   
+padding-bottom: 120px;
 }
 .studio-img-doing{
     display: block;
