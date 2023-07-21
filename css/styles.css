@@ -214,7 +214,7 @@ align-items: center;
     letter-spacing: 0.02em;
     color:var(--color-headers);
     margin-bottom: 8px;
-    
+   
     
 }
 .usual-text {
@@ -272,7 +272,7 @@ align-items: center;
 }
 .studio-section-team {
     background-color:var(--studio-ourteam-color);
-
+    padding: 120px 0;
 }
 .studio-img-team{
     display: block;
@@ -303,6 +303,7 @@ padding: 32px 0;}
 .information-team{
     display: flex;
 justify-content: center;
+text-align: center;
 }
     
    
