@@ -80,6 +80,7 @@ body {
     text-transform: uppercase;
     color: var(--color-logo-web);
     margin-right: 76px;
+    display: inline-block;
 }
 .header-logo-studio {
     color:var(--color-logo-studio-header);
@@ -311,8 +312,7 @@ text-align: center;
 
 .footer{
     background-color:var(--footer-color);
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0;
     
    
 }
@@ -397,4 +397,7 @@ text-align: center;
 
 .main{
     flex-grow: 1;
+}
+.logo-footer{
+    margin-bottom: 16px;
 }
