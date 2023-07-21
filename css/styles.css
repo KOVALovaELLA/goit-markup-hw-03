@@ -235,7 +235,7 @@ align-items: center;
      color:var(--color-headers);
      
      margin: 0 auto 72px;
-     padding-top: 120px;
+     
     
 }
 .studio-section-advantages{
@@ -266,7 +266,7 @@ align-items: center;
     margin-bottom: 120px;
 }
 .studio-section-doing{
-    padding-bottom: 120px;
+   
 }
 .studio-img-doing{
     display: block;
@@ -284,7 +284,7 @@ align-items: center;
    
 }
 .our-team-container{
-    padding-bottom: 120px;
+    
    
     
 }
