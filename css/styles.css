@@ -79,7 +79,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-logo-web);
-    
+    margin-right: 76px;
 }
 .header-logo-studio {
     color:var(--color-logo-studio-header);
@@ -129,6 +129,7 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--color-headers);
+    padding: 24px 0;
 }
 .header-menu-item:hover,
 .header-menu-item:focus {
