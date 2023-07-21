@@ -248,7 +248,7 @@ align-items: center;
 }
 .adventagy-item{
     width: calc((100% - 72px) / 4);
-    
+
 }
     
 
@@ -256,10 +256,16 @@ align-items: center;
     padding-top: 120px;
     
 }
+.studio-img-li{
+    
+}
 .studio-images-doing{
     display: flex;
     gap:24px;
     margin-bottom: 120px;
+}
+.studio-section-doing{
+    padding-bottom: 120px;
 }
 .studio-img-doing{
     display: block;
