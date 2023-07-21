@@ -329,7 +329,10 @@ text-align: center;
     margin-top: 17.5px;
 }
 
-
+.portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .portfolio-buttons-container{
     display: flex;
     flex-direction: row;
@@ -366,6 +369,7 @@ text-align: center;
     color: #FFFFFF;
     background-color: #404BBF;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 
@@ -374,6 +378,7 @@ text-align: center;
     gap: 24px;
     flex-wrap: wrap;
     margin-bottom: 120px;
+    row-gap: 48px;
 }
 .portfolio-images-containers{
     display: flex;
