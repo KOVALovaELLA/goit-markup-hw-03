@@ -86,15 +86,20 @@ body {
     
 }
 .footer-logo-studio {
-    color: var(--color-logo-studio-footer);
+    color: var(--color-logo-studio-footer);}
+ .logo-text{
+    column-gap: 76px;
     
 
 }
 .header-container{
     display: flex;
 align-items: center;
-border-bottom: 1px solid #e7e9fc;
+
 /*gap: 332px;*/
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-menu{
     display: flex ;
@@ -116,9 +121,12 @@ border-bottom: 1px solid #e7e9fc;
    
 }
 /********************************/
+.header-logo-studio{
+    margin-right: 76px;
+}
 .header-without-socials{
     display: flex;
-    column-gap: 76px;
+    
     align-items: center;
 }
 .header-menu-item {
@@ -150,7 +158,8 @@ border-bottom: 1px solid #e7e9fc;
 
 .studio-section-main{
     background-color:var(--studio-main-color);
-
+    padding-top: 188px ;
+    padding-bottom: 292px;
 }
 .h-first{
     font-size: 56px;
@@ -161,9 +170,7 @@ border-bottom: 1px solid #e7e9fc;
     margin: 0 auto;
     max-width: 496px;
     }
-.studio-section-main{
-padding: 188px 472px 292px 472px;
-}
+
 .studio-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
