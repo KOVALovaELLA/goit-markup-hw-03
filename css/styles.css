@@ -179,6 +179,8 @@ align-items: center;
     border:none;
     justify-content: center;
     margin:48px auto 0;
+    min-width: 169px;
+    cursor: pointer;
 }
 .visually-hidden{
     position: absolute;
@@ -233,6 +235,9 @@ align-items: center;
      margin: 0 auto 72px;
      padding-top: 120px;
     
+}
+.studio-section-advantages{
+    padding: 120px 0;
 }
 
 .studio-advantages{
@@ -372,11 +377,11 @@ justify-content: center;
 .page-container{
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;}
 .portfolio-img{
     margin-bottom: 32px;
 }
-}
+
 .main{
     flex-grow: 1;
 }
