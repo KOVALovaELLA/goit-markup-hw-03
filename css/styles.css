@@ -87,11 +87,7 @@ body {
 }
 .footer-logo-studio {
     color: var(--color-logo-studio-footer);}
- .logo-text{
-    column-gap: 76px;
-    
 
-}
 .header-container{
     display: flex;
 align-items: center;
