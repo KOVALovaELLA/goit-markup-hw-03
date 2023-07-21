@@ -243,10 +243,13 @@ align-items: center;
 
 .studio-advantages{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
    
 }
-
+.adventagy-item{
+    width: calc((100% - 72px) / 4);
+    
+}
     
 
 .studio-section-advantages-container {
