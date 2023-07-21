@@ -153,8 +153,7 @@ align-items: center;
 
 .studio-section-main{
     background-color:var(--studio-main-color);
-    padding-top: 188px ;
-    padding-bottom: 292px;
+    padding: 188px 0;
 }
 .h-first{
     font-size: 56px;
