@@ -248,7 +248,7 @@ align-items: center;
 }
 .adventagy-item{
     width: calc((100% - 72px) / 4);
-
+    padding: 120px 0;
 }
     
 
@@ -257,7 +257,7 @@ align-items: center;
     
 }
 .studio-img-li{
-    
+
 }
 .studio-images-doing{
     display: flex;
@@ -279,6 +279,7 @@ align-items: center;
 }
 .studio-team-infa {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
    
 }
 .our-team-container{
@@ -296,7 +297,8 @@ align-items: center;
    
     
     margin-top: 32px;
-    margin-bottom: 32px;}
+    margin-bottom: 32px;
+padding: 32px 0;}
     
 .information-team{
     display: flex;
