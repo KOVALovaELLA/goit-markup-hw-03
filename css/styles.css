@@ -249,12 +249,12 @@ align-items: center;
 }
 .adventagy-item{
     width: calc((100% - 72px) / 4);
-    padding: 120px 0;
+   
 }
     
 
 .studio-section-advantages-container {
-    padding-top: 120px;
+   
     
 }
 .studio-img-li{
@@ -377,7 +377,7 @@ text-align: center;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    margin-bottom: 120px;
+   
     row-gap: 48px;
 }
 .portfolio-images-containers{
@@ -386,7 +386,11 @@ text-align: center;
     row-gap: 48px;
     margin-bottom: 120px;
 }
-.portfolio-img{
+.portfolio-info-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
+.portfolio-img-i{
     display: block;
 }
 .usual-text-portfolio{
