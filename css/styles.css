@@ -66,11 +66,11 @@ body {
     list-style: none;
 }
 
-
+/*
 .header{
     padding-top: 23px;
     padding-bottom: 24px;
-}
+}*/
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -79,8 +79,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-logo-web);
-    margin-right: 76px;
+    /*margin-right: 76px;*/
     display: inline-block;
+    padding: 24px;
+    display: block;
 }
 .header-logo-studio {
     color:var(--color-logo-studio-header);
@@ -119,10 +121,10 @@ align-items: center;
     gap: 40px;
    
 }
-/********************************/
+/*******************************
 .header-logo-studio{
     margin-right: 76px;
-}
+}*/
 
 .header-menu-item {
     font-weight: 500;
@@ -131,6 +133,7 @@ align-items: center;
     letter-spacing: 0.02em;
     color:var(--color-headers);
     padding: 24px 0;
+    display: block;
 }
 .header-menu-item:hover,
 .header-menu-item:focus {
@@ -145,6 +148,8 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--color-usual-text);
+    padding: 24px;
+    display: block;
 }
 .header-address-item:hover,
 .header-address-item:focus {
@@ -265,6 +270,9 @@ padding-bottom: 120px;
 .studio-img-doing{
     display: block;
 }
+.studio-img-li{
+    width: calc((100% - 48px)/3);
+}
 .studio-section-team {
     background-color:var(--studio-ourteam-color);
     padding: 120px 0;
@@ -275,22 +283,25 @@ padding-bottom: 120px;
 .studio-team-infa {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    
+    width: calc((100% - 24px*3)/4);
    
 }
 .studio-team{
     display: flex;
-    gap: 24px;
     
+       
+    gap: 24px;
+   
     
 }
 .information-team-container{   
-    margin-top: 32px;
-    margin-bottom: 32px;
+    
 padding: 32px 0;}
     
 .information-team{
-    display: flex;
-justify-content: center;
+   
+
 text-align: center;
 }
     
@@ -307,7 +318,7 @@ text-align: center;
     color: var(--color-footer-text);
      letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 17.5px;
+     
 }
 
 .portfolio-section{
@@ -376,14 +387,15 @@ text-align: center;
     display: block;
 }
 .usual-text-portfolio{
-    margin-bottom: 32px;
+  /*  margin-bottom: 32px;*/
 }
 .page-container{
     min-height: 100vh;
     display: flex;
     flex-direction: column;}
 .portfolio-img{
-    margin-bottom: 32px;
+  /*  margin-bottom: 32px;*/
+  width: calc( (100% - 24px * 2) / 3);
 }
 
 .main{
